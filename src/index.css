@@ -1,13 +1,23 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body#body {
+  background-color: rgb(218, 217, 217);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  max-width: 1000px;
+  margin: auto;
+  background-color: white;
+}
+
+.amcarousel {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+section {
+  padding: 15px;
+  margin: 10px auto;
+}
+
+.amlist {
+  margin: 10px auto;
 }
